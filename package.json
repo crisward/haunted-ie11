@@ -1,26 +1,20 @@
 {
-  "name": "hyper-coffee",
+  "name": "haunted-ie11",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "rollup ./index.js  --watch --config --format iife --file ./build.js",
-    "start": "coffee ./server.coffee"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "browserslist": "> 0.25%, not dead",
-  "dependencies": {
-    "@babel/polyfill": "^7.0.0",
-    "@webcomponents/webcomponentsjs": "^2.2.0",
-    "path-to-regexp": "^2.4.0"
-  },
   "devDependencies": {
+    "@babel/polyfill": "^7.0.0",
     "@babel/preset-env": "^7.1.6",
     "@matthewp/haunted": "^2.2.0",
-    "coffeescript": "^2.3.2",
     "lit-html": "^0.13.0",
     "rollup": "^0.67.3",
     "rollup-plugin-babel": "^4.0.3",
