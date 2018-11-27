@@ -1,8 +1,8 @@
 import { component,useState } from '@matthewp/haunted'
 import { html } from 'lit-html'
 
-function Counter() {
-  const [count, setCount] = useState(0);
+function Counter(el) {
+  const [count, setCount] = useState(+el.getAttribute("value") || 0);
 
   return html`
     <style>
