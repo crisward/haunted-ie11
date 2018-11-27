@@ -11,3 +11,9 @@ npm install
 npm run watch
 ```
 Then open `index.html` in web browser - should work in IE11??
+
+To build compress JS file
+
+```
+npm run build
+```
